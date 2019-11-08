@@ -4,7 +4,7 @@ function copyPassword(){
    document.execCommand("copy");
    alert ("Password copied to clipboard!");
 }
-function lowercase() {
+function lowercase(){
     var hasUserSelectedLowerCase = confirm ("Do you want your pass to contain lower case letters?");
     
 }
