@@ -1,7 +1,7 @@
 function copyPassword(){
    document.getElementById("display").select();
    document.execCommand("copy");
-   alert ("Password copied to clipboard!");
+   alert ("Password copied to clipboard!");}
 
 function generate(){
 
@@ -22,11 +22,6 @@ function special() {
     var hasUserSelectedNumbers = confirm ("Do you want your pass to contain numbers?")
 }
 }
-
-
-
-
-
 
 let value1 = "!@#$%^&*()";
 let value2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -62,7 +57,7 @@ document.getElementById("display").value = password;
 
 
 document.getElementById("lastNums").innerHTML +=password + "<br /r>";
-}
+
 
 
 document.getElementById("length").innerHTML = "length: 30";
