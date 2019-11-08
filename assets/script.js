@@ -1,10 +1,13 @@
-
 function copyPassword(){
    document.getElementById("display").select();
    document.execCommand("copy");
    alert ("Password copied to clipboard!");
 }
-function lowercase() {
+
+
+
+function generate(){
+   function lowercase() {
     var hasUserSelectedLowerCase = confirm ("Do you want your pass to contain lower case letters?");
     
 }
@@ -19,9 +22,6 @@ function special() {
 function special() {
     var hasUserSelectedNumbers = confirm ("Do you want your pass to contain numbers?")
 }
-
-
-function generate(){
 
 
 let value1 = "!@#$%^&*()";
