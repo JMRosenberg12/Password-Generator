@@ -45,7 +45,7 @@ for(var i= 0; i <= complexity; i++){
         password = password + value4.charAt(Math.floor(Math.random() * Math.floor(value4.length - 1)));
     }
     if (hasUserSelectedSpecial){
-        password = Password + value1.charAt(Math.floor(Math.floor() * Math.floor(value1.length - 1)));
+        password = Password + value1.charAt(Math.floor(Math.random() * Math.floor(value1.length - 1)));
     }
     
   
