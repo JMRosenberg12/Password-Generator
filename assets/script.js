@@ -35,3 +35,4 @@ function copyPassword(){
    document.getElementById("display").select();
    document.execCommand("copy");
    alert ("Password copied to clipboard!");
+}
