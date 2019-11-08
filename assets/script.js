@@ -53,7 +53,10 @@ for(var i= 0; i <= complexity; i++){
 }
 
 
-document.getElementById("display").value =password;
+document.getElementById("display").value1 = password; 
+document.getElementById("display").value2 = password;
+document.getElementById("display").value3 = password;
+document.getElementById("display").value4 = password;
 
 
 
