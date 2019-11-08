@@ -39,3 +39,9 @@ function copyPassword(){
    document.execCommand("copy");
    alert ("Password copied to clipboard!");
 }
+function lowercase() {
+    var hasUserSelectedLowerCase = confirm ("Do you want your pass to contain lower case letters?");
+}
+function uppercase() {
+    var hasUserSelectedUpperCase = confirm ("Do you want your pass to contain lower cass letters?"):}
+
