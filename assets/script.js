@@ -3,12 +3,11 @@ function copyPassword(){
    document.execCommand("copy");
    alert ("Password copied to clipboard!");
 }
-
-
-
 function generate(){
-   function lowercase() {
+
+function lowercase() {
     var hasUserSelectedLowerCase = confirm ("Do you want your pass to contain lower case letters?");
+
     
 }
 function uppercase() {
@@ -16,12 +15,16 @@ function uppercase() {
 
 }
 function special() {
-    var hasUserSelectedSpecial = Confirm ("Do you want your pass to contain special keys?")
+    var hasUserSelectedSpecial = confirm ("Do you want your pass to contain special keys?")
 }
 
 function special() {
     var hasUserSelectedNumbers = confirm ("Do you want your pass to contain numbers?")
 }
+
+
+
+
 
 
 let value1 = "!@#$%^&*()";
@@ -34,19 +37,20 @@ var complexity = prompt ("How many letters you want in your password?");
 
 
 for(var i= 0; i <= complexity; i++){
-    if(hasUserSelectedUpperCase){
-        password = password + value2.charAt(Math.floor(Math.random() * Math.floor(value2.length - 1))); 
-       
+    if (hasUserSelectedUpperCase){
+        password = password + value2.charAt(Math.floor(Math.random() * Math.floor(value2.length - 1)));  
     }
-    if(hasUserSelectedLowerCase){
+     
+    
+    if (hasUserSelectedLowerCase){
         password = password + value3.charAt(Math.floor(Math.random() * Math.floor(value3.length - 1)));
 
     }
-    if(hasUserSelectedNumbers){
+    if (hasUserSelectedNumbers){
         password = password + value4.charAt(Math.floor(Math.random() * Math.floor(value4.length - 1)));
     }
-    if(hasUserSelectedSpecial){
-        password = Password + value1.charAt(Math.floor(Math.random() * Math.floor(value1.length - 1)));
+    if (hasUserSelectedSpecial){
+        password = Password + value1.charAt(Math.floor(Math.floor() * Math.floor(value1.length - 1)));
     }
     
   
@@ -61,5 +65,4 @@ document.getElementById("lastNums").innerHTML +=password + "<br /r>";
 
 
 document.getElementById("length").innerHTML = "length: 30";
-
 
