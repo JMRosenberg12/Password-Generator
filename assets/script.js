@@ -8,26 +8,47 @@ function lowercase() {
     var hasUserSelectedLowerCase = confirm ("Do you want your pass to contain lower case letters?");
     
 }
-lowercase();
 function uppercase() {
-    var hasUserSelectedUpperCase = confirm ("Do you want your pass to contain lower cass letters?"):
+    var hasUserSelectedUpperCase = confirm ("Do you want your pass to contain lower cass letters?");
 
 }
+function special () {
+    var hasUserSelectedSpecial = Confirm ("Do you want your pass to contain special keys?")
+}
+
+function special () {
+    var hasUserSelectedNumbers = confirm ("Do you want your pass to contain numbers?")
+}
+
 
 function generate(){
 
-let complexity = document.getElementById("slider").value;
 
-let value = "!@#$%^&*()";
-let value = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let value = "abcdefghijklmnopqrstuvwxyz";
-let value = "1234567890";
+let value1 = "!@#$%^&*()";
+let value2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let value3 = "abcdefghijklmnopqrstuvwxyz";
+let value4 = "1234567890";
 
 let password = "";
+var complexity = prompt ("How many letters you want in your password?");
 
 
 for(var i= 0; i <= complexity; i++){
-    password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
+    if (hasUserSelectedUpperCase){
+        password = password + value2.charAt(Math.floor(Math.random() * Math.floor(value2.length - 1)));  
+    }
+    if (hasUserSelectedLowerCase){
+        password = password + value3.charAt(Math.floor(Math.random() * Math.floor(value3.length - 1)));
+
+    }
+    if (hasUserSelectedNumbers){
+        password = password + value4.charAt(Math.floor(Math.random() * Math.floor(value4.length - 1)));
+    }
+    if (hasUserSelectedSpecial){
+        password = Password + value1.charAt(Math.floor(Math.floor() * Math.floor(value1.length - 1)));
+    }
+    
+  
 }
 
 
@@ -39,14 +60,5 @@ document.getElementById("lastNums").innerHTML +=password + "<br /r>";
 
 
 document.getElementById("length").innerHTML = "length: 30";
-
-document.getElementById("slider").oninput = function() {
-    if (document.getElementById("slider").value > 0) {
-        document.getElementById("length").innerHTML = "length: "+ document.getElementById("slider").value;
-    }
-    else {
-        document.getElementById("length").innerHTML = "length: 1"
-    }
-}
 
 
