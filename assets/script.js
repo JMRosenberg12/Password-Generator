@@ -13,7 +13,7 @@ function uppercase() {
 
 }
 function special () {
-    var hasUserSelectedSpecial = Confirm ("Do you want your pass to contain special keys?")
+    var hasUserSelectedSpecial = confirm ("Do you want your pass to contain special keys?")
 }
 
 function special () {
