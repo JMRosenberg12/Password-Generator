@@ -3,7 +3,10 @@ function generate(){
 
 let complexity = document.getElementById("slider").value;
 
-let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_="
+let values1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let values2 = "abcdefghijklmnopqrstuvwxyz"
+let values3 = "1234567890"
+let values4 = "!@#$%^&*()_="
 
 let password = "";]
 
