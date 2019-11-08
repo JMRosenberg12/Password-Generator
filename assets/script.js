@@ -20,7 +20,7 @@ document.getElementById("lastNums").innerHTML +=password + "<br /r>";
 }
 
 
-document.getElementById("length").innerHTML = "length : 30";
+document.getElementById("length").innerHTML = "length: 30";
 
 document.getElementById("slider").oninput = function() {
     if (document.getElementById("slider").value > 0) {
