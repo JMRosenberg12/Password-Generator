@@ -2,7 +2,7 @@ function copyPassword(){
    document.getElementById("display").select();
    document.execCommand("copy");
    alert ("Password copied to clipboard!");
-}
+
 function generate(){
 
 function lowercase() {
@@ -20,6 +20,7 @@ function special() {
 
 function special() {
     var hasUserSelectedNumbers = confirm ("Do you want your pass to contain numbers?")
+}
 }
 
 
