@@ -36,7 +36,7 @@ var complexity = prompt ("How many letters you want in your password?");
 for(var i= 0; i <= complexity; i++){
     if(hasUserSelectedUpperCase){
         password = password + value2.charAt(Math.floor(Math.random() * Math.floor(value2.length - 1))); 
-       console.log(password.toUpperCase()));
+       
     }
     if(hasUserSelectedLowerCase){
         password = password + value3.charAt(Math.floor(Math.random() * Math.floor(value3.length - 1)));
