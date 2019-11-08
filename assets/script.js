@@ -54,7 +54,7 @@ for(var i= 0; i <= complexity; i++){
 
 
 document.getElementById("display").value =password;
-}
+
 
 
 document.getElementById("lastNums").innerHTML +=password + "<br /r>";
