@@ -60,7 +60,7 @@ document.getElementById("display").value4 = password;
 
 
 
-document.getElementById("lastNums").innerHTML +=password + "<br /r>";
+document.getElementById("lastNums").innerHTML =password + "<br /r>";
 
 
 
