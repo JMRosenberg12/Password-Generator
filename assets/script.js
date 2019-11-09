@@ -78,7 +78,7 @@ function generate() {
 			document.getElementById("lastNums").innerHTML = password + "<br /r>";
 
 
-			document.getElementById("length").innerHTML = "length: 30";
+			
 
     }
 
