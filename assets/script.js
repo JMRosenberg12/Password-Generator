@@ -35,7 +35,14 @@ function generate() {
 		let value4 = "1234567890";
 
 		let password = "";
-		var complexity = prompt("How many letters you want in your password?");
+        var complexity = prompt("How many letters you want in your password?");
+        
+        if (complexity > 128 || complexity < 8){
+        alert("You need characters btween 8 - 128 to make a password.");
+        return; 
+}
+
+        
 
 		var hasUserSelectedUpperCase = uppercase();
 		var hasUserSelectedLowerCase = lowercase();
